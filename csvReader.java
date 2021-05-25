@@ -8,6 +8,7 @@ public class csvReader{
 			Scanner kb = new Scanner(System.in);
 			System.out.println("Enter the type of information you would like to see? \n(1) ID Numbers, (2) Phone Numbers, (3) emails, (ANY OTHER KEY) for all info");
 			String input = kb.nextLine();
+			kb.close();
 			int choice;
 			try{
 				choice = Integer.parseInt(input);
